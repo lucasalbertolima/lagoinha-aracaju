@@ -42,7 +42,7 @@ export default function RootLayout({
           <Footer />
 
           <div className="fixed bottom-4 right-4 z-10">
-            <Link target='_blank' href="https://api.whatsapp.com/send/?phone=5579981206191&text=Ol%C3%A1%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20igreja&type=phone_number&app_absent=0">
+            <Link target='_blank' href="https://api.whatsapp.com/send/?phone=5579981176303&text=Ol%C3%A1%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20igreja&type=phone_number&app_absent=0">
                 <div
                   className="bg-[#00a884] text-white rounded-full p-2 shadow-md cursor-pointer"
                 >
