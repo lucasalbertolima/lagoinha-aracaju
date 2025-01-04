@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 244, 242;
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  margin: 0;
+  padding: 0;
+}
+
+.bg-fundo-lagoinha {
+  background-image: url("/fundo-lagoinha-estancia.png");
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover;
+  min-height: 350px;
+}
+
+.bg-quemsomos {
+  background-image: url("/fundo-estancia-2.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dizimos{
+  background-image: url("/ofertorio.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 180px;
+}
+
+.bg-green-500 {
+  background-color: #869781;
+}
+.linha-vertical {
+  height: 70px;/*Altura da linha*/
+  border-left: 2px solid;
+  border-color: black;
+  width: 1px;
+}
+
+.maxlargura {
+  max-width: 1400px;
+}
+
+@media (min-width: 768px) {
+  .linha-vertical {
+    height: 150px;/*Altura da linha*/
+  }
+}
